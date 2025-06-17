@@ -26,7 +26,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Sidebar with profile image and contact info
-st.sidebar.image(r"C:\Users\Shiva Kumar\Downloads\image.pnj.jpg", width=150)  # Ensure the image file is in your directory
+st.sidebar.image("image.pnj.jpg", width=150)  # Ensure the image file is in your directory
 st.sidebar.markdown("## **Adejarla Anjali**")
 st.sidebar.markdown("### AI/ML Engineer")
 st.sidebar.markdown("""
@@ -191,7 +191,7 @@ with tab7:
     with st.container():
         st.subheader("🏠 Airbnb Rent Prediction")
         st.markdown("A regression model predicting Airbnb rental prices. Compared predicted vs. actual rent to evaluate model accuracy and identify areas for improvement.")
-       # st.image("airbnb_comparison.png", caption="Predicted Rent vs Actual Rent Comparison")
+
         if st.button("See Predictions", key="airbnb"):
            st.write("[GitHub Repository](https://github.com/your_username/airbnb_rent_prediction)")
 
