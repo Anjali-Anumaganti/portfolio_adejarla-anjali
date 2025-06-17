@@ -1,8 +1,4 @@
 import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
 
 # Set page configuration
 st.set_page_config(page_title="Anjali's AI/ML Portfolio", layout="wide")
@@ -189,7 +185,7 @@ with tab7:
         st.markdown("A Random Forest model achieving **97% accuracy** in classifying breast cancer. Optimized for precision and recall.")
        # st.image("breast_cancer_heatmap.png", caption="Confusion Matrix Visualizing Model Performance")
         if st.button("View Code", key="breast_cancer"):
-            st.write("[GitHub Repository](https://github.com/your_username/breast_cancer_model)")
+           st.write("[GitHub Repository](https://github.com/your_username/breast_cancer_model)")
 
 
     with st.container():
@@ -197,7 +193,7 @@ with tab7:
         st.markdown("A regression model predicting Airbnb rental prices. Compared predicted vs. actual rent to evaluate model accuracy and identify areas for improvement.")
        # st.image("airbnb_comparison.png", caption="Predicted Rent vs Actual Rent Comparison")
         if st.button("See Predictions", key="airbnb"):
-            st.write("[GitHub Repository](https://github.com/your_username/airbnb_rent_prediction)")
+           st.write("[GitHub Repository](https://github.com/your_username/airbnb_rent_prediction)")
 
 
     with st.container():
