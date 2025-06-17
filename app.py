@@ -36,8 +36,8 @@ st.sidebar.markdown("""
 """)
 
 # Resume download button
-with open(r"C:\Users\Shiva Kumar\Downloads\ADEJARLA_ANJALI_Naukri_Style_Resume_Trainee.docx", "rb") as file:
-    st.sidebar.download_button("📄 Download Resume", file, file_name="Anjali_Resume.pdf")
+#with open(r"C:\Users\Shiva Kumar\Downloads\ADEJARLA_ANJALI_Naukri_Style_Resume_Trainee.docx", "rb") as file:
+    #st.sidebar.download_button("📄 Download Resume", file, file_name="Anjali_Resume.pdf")
 
 # Tabs for the main content
 tab1, tab2, tab3, tab4, tab5, tab6, tab7 = st.tabs([
