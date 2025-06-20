@@ -35,6 +35,16 @@ st.sidebar.markdown("""
 - 🔗 [LinkedIn](https://www.linkedin.com/in/anumaganti-anjali-130292272/)  
 """)
 
+# Add download resume button
+with open("anjali_resume.pdf", "rb") as resume_file:
+    st.sidebar.download_button(
+        label="📄 Download Resume",
+        data=resume_file,
+        file_name="anjali.pdf",
+        mime="application/pdf"
+    )
+
+
 # Tabs for main content
 tab1, tab2, tab3, tab4, tab5, tab6, tab7, tab8 = st.tabs([
     "Summary", "📌 Personal Info", "💼 Experience",
