@@ -181,13 +181,13 @@ with tab7:
         st.subheader("🧠 Breast Cancer Classification")
         st.markdown("A Random Forest model achieving **97% accuracy** in classifying breast cancer. Optimized for precision and recall.")
         if st.button("View Code", key="breast_cancer"):
-            st.write("[GitHub Repository](https://github.com/your_username/breast_cancer_model)")
+            st.write("[GitHub Repository](https://github.com/Anjali-Anumaganti/portfolio-files/blob/master/breast_cancer_classification.ipynb)")
 
     with st.container():
         st.subheader("🏠 Airbnb Rent Prediction")
         st.markdown("A regression model predicting Airbnb rental prices. Compared predicted vs. actual rent to evaluate model accuracy and identify areas for improvement.")
         if st.button("See Predictions", key="airbnb"):
-            st.write("[GitHub Repository](https://github.com/your_username/airbnb_rent_prediction)")
+            st.write("[GitHub Repository](https://github.com/Anjali-Anumaganti/portfolio-files/blob/master/Airbnb-ProblemStatemt.ipynb)")
 
     with st.container():
         st.subheader("🛒 Swiggy Customer Segmentation")
